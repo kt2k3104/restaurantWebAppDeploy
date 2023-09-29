@@ -1,0 +1,21 @@
+.restaurants-container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  padding: 12vh;
+}
+
+.res {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+}
+
+@media only screen and (max-width: 1420px) {
+  .res {
+    padding: 5px;
+  }
+}

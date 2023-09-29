@@ -1,0 +1,39 @@
+.button-login {
+  /* text-transform: uppercase; */
+  background-color: darkslateblue;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  margin: 0 calc(50% - 40px);
+  margin-top: 20px;
+  width: 80px;
+  height: 30px;
+}
+.button-login:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.signup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  gap: 10px;
+}
+
+.button-signup {
+  border: 1px #333 solid;
+  padding: 5px 10px;
+  width: 70px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: darkslateblue;
+  color: #fff;
+}
+
+.button-signup:hover {
+  cursor: pointer;
+  background-color: rgba(71, 61, 139, 0.779);
+}
