@@ -19,6 +19,10 @@ export default function About() {
         <li className={classes["feature-item"]}>Library: React</li>
         <li className={classes["feature-item"]}>Hook</li>
         <li className={classes["feature-item"]}>React-router-dom</li>
+        <li className={classes["feature-item"]}>React-hook-form</li>
+        <li className={classes["feature-item"]}>React-modal</li>
+        <li className={classes["feature-item"]}>React-slick</li>
+        <li className={classes["feature-item"]}>SweetAlert2</li>
       </ul>
       <h3>Backend</h3>
       <ul className={classes["feature-list"]}>
