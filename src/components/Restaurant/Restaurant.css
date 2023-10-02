@@ -1,5 +1,6 @@
 .res {
-  background-color: #ffffffcb;
+  background-color: rgba(243, 238, 230, 0.6);
+  box-shadow: 0 2px 8px rgba(255, 255, 255, 0.25);
   width: 100%;
   /* min-width: 320px; */
   height: 100%;
@@ -18,6 +19,9 @@
   align-items: center;
   justify-content: center;
   gap: 10px;
+}
+.res-header svg {
+  color: #f0a500;
 }
 .res-image {
   width: auto;
@@ -84,6 +88,10 @@
   height: 24px;
   border-radius: 50%;
   cursor: pointer;
+  border: none;
+}
+.res-delete:hover {
+  opacity: 0.8;
 }
 
 .disable {
@@ -102,6 +110,13 @@
   justify-content: center;
   gap: 10px;
   background-color: rgba(250, 235, 215, 0.603);
+}
+.modal-detail-container svg {
+  font-size: 20px;
+  margin-right: 5px;
+}
+.modal-detail-container div {
+  margin-top: 5px;
 }
 .modal-detail-img {
   width: auto;
@@ -127,11 +142,10 @@
   color: #333;
 }
 .modal-detail-introduction {
-  width: 80%;
   display: flex;
   align-items: center;
   justify-content: center;
-  max-width: 50%;
+  max-width: 90%;
   font-weight: 500;
 }
 .modal-detail-btn button {

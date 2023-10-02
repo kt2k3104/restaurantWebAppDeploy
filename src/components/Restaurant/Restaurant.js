@@ -113,7 +113,7 @@ function Restaurant({ rest, ShowEdit }) {
             <img src={rest.imageUrl} alt="img" />
           </div>
           <div className="modal-detail-name">
-            <FontAwesomeIcon icon={faUser} />
+            <FontAwesomeIcon icon={faUtensils} />
             <h4>{rest.name}</h4>
           </div>
           <div className="nodal-detail-address">

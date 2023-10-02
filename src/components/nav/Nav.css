@@ -69,7 +69,9 @@
   display: flex;
   align-items: center;
   gap: 10px;
+  color: #f5e5c8;
 }
+
 .avatar {
   font-size: 28px;
 }
@@ -79,7 +81,6 @@
   border-radius: 50%;
 }
 .user h4 {
-  font-weight: 300;
-  color: #333;
-  font-size: 24px;
+  font-weight: 500;
+  font-size: 22px;
 }
