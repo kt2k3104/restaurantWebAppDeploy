@@ -169,3 +169,17 @@
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.2);
 }
+
+.ReactModal__Content {
+  animation: slide-down 300ms ease-out forwards;
+}
+@keyframes slide-down {
+  from {
+    opacity: 0;
+    transform: translate(-50%, -52%);
+  }
+  to {
+    opacity: 1;
+    transform: translate(-50%, -50%);
+  }
+}

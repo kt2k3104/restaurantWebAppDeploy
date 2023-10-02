@@ -1,0 +1,19 @@
+.wrapper {
+  padding-left: 5%;
+  width: 100%;
+  background-color: rgba(243, 238, 230, 0.6);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  box-shadow: 0 2px 8px rgba(255, 255, 255, 0.25);
+}
+.feature-item {
+  list-style: disc;
+  font-size: 16px;
+}
+
+.feature-item,
+.feature-item ul li,
+.feature-list {
+  padding-left: 20px;
+  color: #333;
+}
