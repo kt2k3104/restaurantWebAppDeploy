@@ -56,7 +56,6 @@ export const AuthContextProvider = (props) => {
       //   localStorage.setItem("accessToken", accessToken);
       // });
       if (user) {
-        console.log(user);
         setIsLoggined(true);
         setCurrentUser(firebase.auth.currentUser);
         setUserName(firebase.auth.currentUser.displayName);
@@ -87,7 +86,8 @@ export const AuthContextProvider = (props) => {
     if (token) {
       firebase.auth.onAuthStateChanged(async (currentUser) => {
         if (currentUser) {
-          console.log(currentUser);
+          setCurrentUser(currentUser);
+          setUserName(currentUser.displayName);
           setIsLoggined(true);
         } else {
           localStorage.removeItem("accessToken");
